@@ -43,9 +43,6 @@ public:
   virtual VstInt32  canDo (char* text);
   
 
-
-private:
-  float             m_fPBRatio;
 };
 
 #endif /* CADMidiPassthroughVST_hh */

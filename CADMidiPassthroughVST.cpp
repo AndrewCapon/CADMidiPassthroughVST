@@ -12,7 +12,7 @@
 
 AudioEffect* createEffectInstance (audioMasterCallback audioMaster)
 {
-  CADMidiPassthroughVST *pInstance = new CADMidiPassthroughVST(audioMaster,0,1);
+  CADMidiPassthroughVST *pInstance = new CADMidiPassthroughVST(audioMaster,0,0);
   return pInstance;
 }
 
